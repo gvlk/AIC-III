@@ -24,7 +24,7 @@ To install Sophia, follow these steps:
 2. Navigate to the project directory:
 
     ```
-    cd sophia
+    cd AIC-III
 
 3. Install dependencies:
 
