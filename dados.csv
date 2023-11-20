@@ -1,0 +1,133 @@
+Origem;Valor R$;Destino;Data;Tipo
+salario;R$ 6.800,00;Banco do Brasil;1/01/19;Entrada
+bonus;R$ 300,00;Banco do Brasil;1/01/19;Entrada
+prestacao de servicos;R$ 1.200,00;Banco do Brasil;1/01/19;Entrada
+salario;R$ 6.800,00;Banco do Brasil;1/02/19;Entrada
+bonus;R$ 980,00;Banco do Brasil;1/02/19;Entrada
+prestacao de servicos;R$ 1.150,00;Banco do Brasil;1/02/19;Entrada
+salario;R$ 6.800,00;Banco do Brasil;1/03/19;Entrada
+bonus;R$ 320,00;Banco do Brasil;1/03/19;Entrada
+prestacao de servicos;R$ 2.200,00;Banco do Brasil;1/03/19;Entrada
+salario;R$ 6.800,00;Banco do Brasil;1/04/19;Entrada
+bonus;R$ 390,00;Banco do Brasil;1/04/19;Entrada
+prestacao de servicos;R$ 920,00;Banco do Brasil;1/04/19;Entrada
+salario;R$ 6.800,00;Banco do Brasil;1/05/19;Entrada
+bonus;R$ 480,00;Banco do Brasil;1/05/19;Entrada
+prestacao de servicos;R$ 1.240,00;Banco do Brasil;1/05/19;Entrada
+salario;R$ 6.800,00;Banco do Brasil;1/06/19;Entrada
+bonus;R$ 670,00;Banco do Brasil;1/06/19;Entrada
+prestacao de servicos;R$ 980,00;Banco do Brasil;1/06/19;Entrada
+bonus;R$ 2.500,00;Banco do Brasil;4/06/19;Entrada
+salario;R$ 6.800,00;Banco do Brasil;1/07/19;Entrada
+bonus;R$ 230,00;Banco do Brasil;1/07/19;Entrada
+prestacao de servicos;R$ 1.390,00;Banco do Brasil;1/07/19;Entrada
+salario;R$ 7.000,00;Banco do Brasil;1/08/19;Entrada
+bonus;R$ 120,00;Banco do Brasil;1/08/19;Entrada
+prestacao de servicos;R$ 340,00;Banco do Brasil;1/08/19;Entrada
+salario;R$ 7.000,00;Banco do Brasil;1/09/19;Entrada
+bonus;R$ 220,00;Banco do Brasil;1/09/19;Entrada
+prestacao de servicos;R$ 1.100,00;Banco do Brasil;1/09/19;Entrada
+salario;R$ 7.000,00;Banco do Brasil;1/10/19;Entrada
+bonus;R$ 320,00;Banco do Brasil;1/10/19;Entrada
+prestacao de servicos;R$ 890,00;Banco do Brasil;1/10/19;Entrada
+salario;R$ 7.200,00;Banco do Brasil;1/11/19;Entrada
+bonus;R$ 210,00;Banco do Brasil;1/11/19;Entrada
+prestacao de servicos;R$ 970,00;Banco do Brasil;1/11/19;Entrada
+salario;R$ 7.200,00;Banco do Brasil;1/12/19;Entrada
+bonus;R$ 2.500,00;Banco do Brasil;1/12/19;Entrada
+salario;R$ 7.200,00;Banco do Brasil;1/01/20;Entrada
+prestacao de servicos;R$ 1.200,00;Banco do Brasil;1/01/20;Entrada
+salario;R$ 7.200,00;Banco do Brasil;1/02/20;Entrada
+prestacao de servicos;R$ 1.400,00;Banco do Brasil;1/02/20;Entrada
+salario;R$ 7.200,00;Banco do Brasil;1/03/20;Entrada
+salario;R$ 7.200,00;Banco do Brasil;1/04/20;Entrada
+salario;R$ 7.200,00;Banco do Brasil;1/05/20;Entrada
+salario;R$ 7.200,00;Banco do Brasil;1/06/20;Entrada
+bonus;R$ 3.100,00;Banco do Brasil;3/06/20;Entrada
+salario;R$ 7.200,00;Banco do Brasil;1/07/20;Entrada
+salario;R$ 7.300,00;Banco do Brasil;1/08/20;Entrada
+aluguel;R$ 2.500,00;Banco do Brasil;2/01/19;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;2/01/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/01/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;3/01/19;Saida
+Presentes;R$ 1.200,00;Nubank;10/01/19;Saida
+transporte;R$ 800,00;Banco do Brasil;3/01/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;2/02/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/02/19;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;2/02/19;Saida
+decoracao e mobilia;R$ 1.300,00;Nubank;6/02/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/02/19;Saida
+transporte;R$ 1.100,00;Banco do Brasil;1/02/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/03/19;Saida
+Outros cursos;R$ 100,00;Banco do Brasil;2/03/19;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;1/03/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/03/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/03/19;Saida
+alimentacao;R$ 460,00;Banco do Brasil;1/03/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/04/19;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;1/04/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/04/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/04/19;Saida
+material;R$ 610,00;Banco do Brasil;1/04/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/05/19;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;1/05/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/05/19;Saida
+Dentista;R$ 320,00;Banco do Brasil;1/05/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/05/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/06/19;Saida
+Supermercado;R$ 1.340,00;Banco do Brasil;1/06/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/06/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/06/19;Saida
+roupas;R$ 2.400,00;Banco do Brasil;1/06/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/07/19;Saida
+Supermercado;R$ 1.490,00;Banco do Brasil;1/07/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/07/19;Saida
+decoracao e mobilia;R$ 3.000,00;Banco do Brasil;1/07/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/07/19;Saida
+Viagens;R$ 1.500,00;Nubank;10/07/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/08/19;Saida
+Supermercado;R$ 980,00;Banco do Brasil;1/08/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/08/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/09/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/09/19;Saida
+Supermercado;R$ 1.500,00;Banco do Brasil;1/09/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/09/19;Saida
+transporte;R$ 340,00;Banco do Brasil;1/09/19;Saida
+Cinema / Teatro / Shows;R$ 500,00;Banco do Brasil;1/09/19;Saida
+Taxi/Uber;R$ 340,00;Banco do Brasil;1/09/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/10/19;Saida
+Supermercado;R$ 1.090,00;Banco do Brasil;1/10/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/10/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/10/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/11/19;Saida
+Supermercado;R$ 970,00;Banco do Brasil;1/11/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/11/19;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/11/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/12/19;Saida
+Supermercado;R$ 990,00;Banco do Brasil;1/12/19;Saida
+plano de saude;R$ 300,00;Banco do Brasil;1/12/19;Saida
+Outros cursos;R$ 100,00;Nubank;2/12/19;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;2/01/20;Saida
+Supermercado;R$ 1.150,00;Banco do Brasil;2/01/20;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;3/01/20;Saida
+transporte;R$ 800,00;Banco do Brasil;3/01/20;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;2/02/20;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;2/02/20;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/02/20;Saida
+transporte;R$ 800,00;Banco do Brasil;1/02/20;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/03/20;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;1/03/20;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/03/20;Saida
+transporte;R$ 800,00;Banco do Brasil;1/03/20;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/04/20;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;1/04/20;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/04/20;Saida
+transporte;R$ 800,00;Banco do Brasil;1/04/20;Saida
+aluguel;R$ 2.500,00;Banco do Brasil;1/05/20;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;1/05/20;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/05/20;Saida
+transporte;R$ 800,00;Banco do Brasil;1/05/20;Saida
+aluguel;R$ 2.900,00;Banco do Brasil;1/06/20;Saida
+Supermercado;R$ 1.200,00;Banco do Brasil;1/06/20;Saida
+plano de saude;R$ 1.000,00;Banco do Brasil;1/06/20;Saida
+transporte;R$ 800,00;Banco do Brasil;1/06/20;Saida

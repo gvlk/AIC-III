@@ -4,24 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/images/logo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>SOPHIA V0.1</title>
 </head>
-
-<!-- 
-    
-    criar a tela de loggin
-    Tem que ver de usar a API de login do google
-    a cada coisa da sidebar tem q apontar para alguma coisa que o sistema faz
-    tem que ter a class active na tag <a> do item sendo usado, inserido por variável
-    adicionar um rodapé
-    pesquisar se no flask eu consigo ao invés de criar uma rota pra uma variável js que vai fazer a mágica
-    criar a inserção de nota que precisa gatilhar o leitor de nota
-
--->
-
 
 <body>
 
@@ -39,7 +25,7 @@
             </div>
 
             <div class="sidebar">
-                <a href="#" class="active">
+                <a href="#">
                     <span class="material-icons-sharp">dashboard</span>
                     <h3>Dashboard</h3>
                 </a>
@@ -51,7 +37,7 @@
                     <span class="material-icons-sharp">receipt_long</span>
                     <h3>Cadastro de Notas</h3>
                 </a>
-                <a href="#">
+                <a href="#" class="active">
                     <span class="material-icons-sharp">insights</span>
                     <h3>Relatórios</h3>
                 </a>
@@ -81,7 +67,7 @@
 
         <!-- Main Content -->
         <main>
-            <h1>Dashboard</h1>
+            <h1>Relatórios</h1>
             <!-- Relatórios -->
             <div class="analyse">
                 <div class="sales">
@@ -174,7 +160,7 @@
                         <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="/images/download.jpeg">
+                        <img src="images/eu.jpg">
                     </div>
                 </div>
 
