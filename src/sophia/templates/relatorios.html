@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="{{ url_for('.static', filename='css/style.css') }}" rel="stylesheet">
+    <title>SOPHIA V0.1</title>
+</head>
+
+<body>
+
+<div class="container">
+    <!-- Inicio do Menu Lateral -->
+    <aside>
+        <div class="toggle">
+            <div class="logo">
+                <img alt="Logo" src="{{ url_for('.static', filename='images/logo.png') }}">
+                <h2>Sophia</h2>
+            </div>
+            <div class="close" id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <a href="#">
+                <span class="material-icons-sharp">dashboard</span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">person_outline</span>
+                <h3>Usuários</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">receipt_long</span>
+                <h3>Cadastro de Notas</h3>
+            </a>
+            <a class="active" href="{{ url_for('relatorios') }}">
+                <span class="material-icons-sharp">insights</span>
+                <h3>Relatórios</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">inventory</span>
+                <h3>Custos</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">report_gmailerrorred</span>
+                <h3>Impostos</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">settings</span>
+                <h3>Configurações</h3>
+            </a>
+            <a href="{{ url_for('login') }}">
+                <span class="material-icons-sharp">add</span>
+                <h3>Login</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+    </aside>
+    <!-- Fim do menu lateral -->
+
+    <!-- Main Content -->
+    <main>
+        <h1>Relatórios</h1>
+        <!-- Relatórios -->
+        <div class="analyse">
+            <div class="sales">
+                <div class="status">
+                    <div class="info">
+                        <h3>Em caixa</h3>
+                        <h1>$14.224,00</h1>
+                    </div>
+                    <div class="progresss">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="percentage">
+                            <p>100%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="visits">
+                <div class="status">
+                    <div class="info">
+                        <h3>Gastos</h3>
+                        <h1>5.224,00</h1>
+                    </div>
+                    <div class="progresss">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="percentage">
+                            <p>37%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="searches">
+                <div class="status">
+                    <div class="info">
+                        <h3>Lucro</h3>
+                        <h1>9.000</h1>
+                    </div>
+                    <div class="progresss">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="percentage">
+                            <p>73%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fim de relatórios -->
+
+        <!-- Ultimas entradas -->
+        <div class="recent-orders">
+            <h2>Valores Fixos</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th>Origem</th>
+                    <th>Valor</th>
+                    <th>Status</th>
+                    <th>Tipo</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <a href="#">Mostrar mais</a>
+        </div>
+        <!-- Fim de últimas entradas -->
+
+    </main>
+    <!-- Fim do conteúdo principal -->
+
+    <!-- Menu direita -->
+    <div class="right-section">
+        <div class="nav">
+            <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+            </button>
+            <div class="dark-mode">
+                <span class="material-icons-sharp active">light_mode</span>
+                <span class="material-icons-sharp">dark_mode</span>
+            </div>
+
+            <div class="profile">
+                <div class="info">
+                    <p>Olá, <b>PABLO O MAIS LINDO DA HISTÓRIA</b></p>
+                    <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                    <img alt="Pablo Guaicurus" src="{{ url_for('.static', filename='images/pablo.jpg') }}">
+                </div>
+            </div>
+
+        </div>
+        <!-- Final do menu direita -->
+
+
+        <!-- Inicio do Banner-->
+        <div class="user-profile">
+            <div class="logo">
+                <img alt="Logo" src="{{ url_for('.static', filename='images/logo.png') }}">
+                <h2>Sophia</h2>
+                <p>O seu ERPobre</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="{{ url_for('.static', filename='js/orders.js') }}"></script>
+<script src="{{ url_for('.static', filename='js/index.js') }}"></script>
+</body>
+
+</html>

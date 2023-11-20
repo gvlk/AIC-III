@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="{{ url_for('.static', filename='css/style.css') }}" rel="stylesheet">
+    <title>SOPHIA V0.1</title>
+</head>
+
+<body>
+
+<div class="container">
+    <!-- Inicio do Menu Lateral -->
+    <aside>
+        <div class="toggle">
+            <div class="logo">
+                <img src="{{ url_for('.static', filename='images/logo.png') }}" alt="Logo">
+                <h2>Sophia</h2>
+            </div>
+            <div class="close" id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <a href="#">
+                <span class="material-icons-sharp">dashboard</span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">person_outline</span>
+                <h3>Usuários</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">receipt_long</span>
+                <h3>Cadastro de Notas</h3>
+            </a>
+            <a href="{{ url_for('relatorios') }}">
+                <span class="material-icons-sharp">insights</span>
+                <h3>Relatórios</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">inventory</span>
+                <h3>Custos</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">report_gmailerrorred</span>
+                <h3>Impostos</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">settings</span>
+                <h3>Configurações</h3>
+            </a>
+            <a href="{{ url_for('login') }}" class="active">
+                <span class="material-icons-sharp">add</span>
+                <h3>Login</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+    </aside>
+    <!-- Fim do menu lateral -->
+
+    <!-- Main Content -->
+    <main>
+        <h1>Login</h1>
+        <div class="login-container">
+            <form id="login-form">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Fim do conteúdo principal -->
+
+    <!-- Menu direita -->
+    <div class="right-section">
+        <div class="nav">
+            <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+            </button>
+            <div class="dark-mode">
+                <span class="material-icons-sharp active">light_mode</span>
+                <span class="material-icons-sharp">dark_mode</span>
+            </div>
+
+            <div class="profile">
+                <div class="info">
+                    <p>Olá, <b>PABLO O MAIS LINDO DA HISTÓRIA</b></p>
+                    <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="{{ url_for('.static', filename='images/pablo.jpg') }}" alt="Pablo Guaicurus">
+                </div>
+            </div>
+
+        </div>
+        <!-- Final do menu direita -->
+
+
+        <!-- Inicio do Banner-->
+        <div class="user-profile">
+            <div class="logo">
+                <img src="{{ url_for('.static', filename='images/logo.png') }}" alt="Logo">
+                <h2>Sophia</h2>
+                <p>O seu ERPobre</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/orders.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>

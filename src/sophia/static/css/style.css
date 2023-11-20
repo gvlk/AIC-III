@@ -36,7 +36,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    appearance: 0;
+    appearance: none;
     border: 0;
     text-decoration: none;
     box-sizing: border-box;

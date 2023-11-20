@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="{{ url_for('.static', filename='css/style.css') }}" rel="stylesheet">
+    <style>
+        .container {
+            height: 100vh;
+            position: relative;
+            text-align: center;
+        }
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <title>SOPHIA V0.1</title>
+</head>
+<body class="container">
+<div class="center">
+    <h1>SOPHIA ERP</h1>
+    <h2>⚠️APLICATIVO EM DESENVOLVIMENTO⚠️</h2>
+    <ul style="list-style-type: none">
+        <li ><h3><a href="{{ url_for('login') }}">Login</a></h3></li>
+        <li><h3><a href="{{ url_for('relatorios') }}">Relatórios</a></h3></li>
+    </ul>
+</div>
+</body>
+</html>
