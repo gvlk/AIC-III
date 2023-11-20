@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69.0.0", "wheel>=0.41.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "Sophia"
+version = "0.1"
+description = "Free Enterprise Resource Planning"
+authors = ["Ayron Horz", "Guilherme Azambuja", "Pablo Guaicurus", "Rafaela Lopes"]
+license = "Open"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.0"
