@@ -36,7 +36,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    appearance: 0;
+    appearance: none;
     border: 0;
     text-decoration: none;
     box-sizing: border-box;
@@ -706,4 +706,42 @@ main .recent-orders a{
         font-size: 2rem;
     }
 
+}
+
+.login-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--color-white);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid var(--color-dark-variant);
+    border-radius: var(--border-radius-1);
+}
+
+button {
+    padding: 12px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: var(--border-radius-1);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-dark-variant);
 }
